@@ -1,0 +1,9 @@
+b{
+    color:rgb(203, 69, 69)
+}
+.big{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(241, 198, 212);
+}
