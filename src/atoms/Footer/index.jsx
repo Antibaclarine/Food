@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css'
+import {FaPinterest,FaInstagram,FaTwitter,FaFacebook} from 'react-icons/fa'
 
 const Footer=()=>{
 return(
@@ -9,6 +10,7 @@ return(
        <p>Continue Foodich 2023 all rights reserved</p>
        <br />
        <b>Follow Us On</b>
+       <p className=""><FaPinterest/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <FaInstagram/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<FaTwitter/> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<FaFacebook/> &nbsp; &nbsp; &nbsp; &nbsp;</p>
     </div>
     <div>
         <b>Menu</b>

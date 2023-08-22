@@ -42,12 +42,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(241, 229, 229);
   }
   
   .heading {
     text-align: left;
     color: rgb(228, 87, 87);
     font-size: 33px;
+    padding-left: 11%;
   }
   
   .links {
@@ -56,6 +58,8 @@
   
   .buttons {
     text-align: right;
+    position: relative;
+    right: 130px;
   }
 
   .login-button{

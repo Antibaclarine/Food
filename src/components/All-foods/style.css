@@ -4,6 +4,18 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .product h1{
+    padding-right: 55%;
+    font-size: 48px;
+  }
+  .product span{
+    color: rgb(238, 94, 94);
+  }
+  .p{
+    margin-left: 11%;
+    text-align: left;
+    
+  }
   
   .column {
     flex-basis: 33.33%;
@@ -56,10 +68,13 @@
   
   .buy-button {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 15px 35px;
     background-color: #d24c3a;
     color: #fff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+  }
+  .star{
+    color: yellow;
   }

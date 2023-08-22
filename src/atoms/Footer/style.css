@@ -1,9 +1,12 @@
 b{
-    color:rgb(203, 69, 69)
+    color:rgb(238, 94, 94);
+    font-size: 38px;
 }
 .big{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: rgb(241, 198, 212);
+    background-color: rgb(246, 233, 237);
+    position: relative;
+    top: 50px;
 }

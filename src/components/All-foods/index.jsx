@@ -6,6 +6,7 @@ import Circle2 from '../Image-container/circle2.png';
 import Circle3 from '../Image-container/circle3.png';
 import Circle4 from '../Image-container/circle.png';
 import Circle5 from '../Image-container/circle5.png';
+import {FaStar} from 'react-icons/fa'
 
 const MenuList = [
   {
@@ -26,17 +27,17 @@ const MenuList = [
   {
     image: Circle3,
     name: 'French Fries',
-    order: 'Order Now',
+   
   },
   {
     image: Circle4,
     name: 'French Fries',
-    order: 'Order Now',
+    
   },
   {
     image: Circle5,
     name: 'French Fries',
-    order: 'Order Now',
+    
   },
 ];
 
@@ -44,7 +45,7 @@ const Manual = () => {
   return (
     <div className="product">
       <h1>Our <span>Regular</span> Menu</h1>
-      <p>These Are Our Regular Menus. You Can<br />Order Anything You Like</p>
+      <p className='p'>These Are Our Regular Menus. You Can<br />Order Anything You Like</p>
       <div className="product-container">
         {MenuList.map((item, index) => (
           <div key={index} className="product-item">
@@ -53,9 +54,8 @@ const Manual = () => {
             </div>
             <div className="product-details">
               <p className="product-name">{item.name}</p>
-              <p className="product-order">{item.order}</p>
-              <span className="product-price">$4.80</span>
-              <button className="buy-button">Buy Now</button>
+             <p className='star'><FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> <span>(112)</span></p> 
+            <p>$4.80 &nbsp; &nbsp; &nbsp;<button className="buy-button">Buy Now</button></p>
             </div>
           </div>
         ))}
